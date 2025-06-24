@@ -1,0 +1,308 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1750754171218256, "dur":7183, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750754171225444, "dur":55, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750754171225520, "dur":579, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750754171226118, "dur":3520, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750754171229639, "dur":1499715, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750754172729355, "dur":270, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750754172729816, "dur":859, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1750754171225930, "dur":3714, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1750754171229649, "dur":1401, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1750754171231729, "dur":254, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1750754171231985, "dur":1451, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1750754171233440, "dur":2305, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1750754171235746, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1750754171235977, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unitytutorial\\NewTutorials\\PingPong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171236039, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unitytutorial\\NewTutorials\\PingPong\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171236148, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unitytutorial\\NewTutorials\\PingPong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171236298, "dur":232, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unitytutorial\\NewTutorials\\PingPong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171236560, "dur":158, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unitytutorial\\NewTutorials\\PingPong\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171236811, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171236904, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171237002, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171237055, "dur":380, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171237472, "dur":720, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171238192, "dur":179, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171238429, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171238483, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171238539, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171238594, "dur":320, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171238914, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171239036, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171239152, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171239214, "dur":1075, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171240290, "dur":868, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171241159, "dur":1488, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171242689, "dur":136735, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.BuildTools.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171379425, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171379545, "dur":44501, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.CSharpSupport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171424048, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.DotNet.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171424197, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.NativeProgramSupport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171424316, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Stevedore.Program.exe" }}
+,{ "pid":12345, "tid":1, "ts":1750754171424446, "dur":36519, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.GNU.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171460966, "dur":240356, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.LLVM.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171701323, "dur":42337, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.VisualStudio.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171743661, "dur":63127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.Xcode.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171806789, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Tools.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171806877, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TundraBackend.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171806999, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeLocalCacheTool.exe" }}
+,{ "pid":12345, "tid":1, "ts":1750754171807087, "dur":28436, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171835524, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\NiceIO.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171835721, "dur":35994, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\SharpYaml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171871716, "dur":37884, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Api.Attributes.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171909602, "dur":57136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171966739, "dur":28339, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171995080, "dur":46433, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754172041515, "dur":38260, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754172079776, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Api.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754172079864, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.BuildLogic.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754172079961, "dur":32979, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Options.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750754171231985, "dur":880957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1750754172113030, "dur":83970, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1750754172197640, "dur":1526, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1750754172197639, "dur":1528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1750754172199180, "dur":475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1750754172199657, "dur":529700, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750754171225946, "dur":3711, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750754171229661, "dur":527, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750754171230188, "dur":864, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750754171231066, "dur":490078, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1750754171231059, "dur":490087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unitytutorial/NewTutorials/buildpingpong/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1750754171721159, "dur":37624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1750754171758798, "dur":74169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750754171832985, "dur":47374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750754171880366, "dur":848974, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750754171225936, "dur":3713, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750754171229656, "dur":235, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750754171229891, "dur":1161, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750754171231065, "dur":31299, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1750754171231059, "dur":31307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1750754171262546, "dur":569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1750754171263315, "dur":2169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750754171265500, "dur":5801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750754171271318, "dur":14907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750754171286247, "dur":5585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750754171291849, "dur":6185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750754171298054, "dur":5355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750754171303434, "dur":627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750754171304075, "dur":10983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750754171315087, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750754171315848, "dur":24536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750754171340399, "dur":7050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750754171347463, "dur":19623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750754171367102, "dur":57584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750754171424706, "dur":209467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750754171634192, "dur":165497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750754171799705, "dur":56774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750754171856491, "dur":872859, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1750754171225962, "dur":3700, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1750754171229668, "dur":593, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1750754171230262, "dur":900, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1750754171233125, "dur":468106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1750754171701284, "dur":129474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750754171830798, "dur":49552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750754171880361, "dur":848959, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750754171225986, "dur":3684, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750754171229680, "dur":541, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750754171230221, "dur":886, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750754171231116, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1750754171232826, "dur":50673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1750754171283521, "dur":2947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750754171286483, "dur":412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750754171286912, "dur":5196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750754171292123, "dur":6770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750754171298906, "dur":4562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750754171303498, "dur":10935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750754171314454, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750754171315598, "dur":24491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750754171340106, "dur":6921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750754171347045, "dur":8705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750754171355767, "dur":68907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750754171424695, "dur":222797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750754171647510, "dur":152322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750754171799889, "dur":80444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750754171880354, "dur":848987, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750754171226003, "dur":3676, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750754171229684, "dur":558, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750754171230243, "dur":934, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750754171231191, "dur":241963, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1750754171231182, "dur":241973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1750754171473173, "dur":228034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1750754171701241, "dur":98667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750754171799947, "dur":80497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750754171880454, "dur":849037, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750754171226030, "dur":3657, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750754171229695, "dur":535, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750754171230230, "dur":978, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750754171231209, "dur":331771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1750754171562999, "dur":195335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1750754171758355, "dur":97582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750754171856054, "dur":24331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1750754171880396, "dur":848960, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750754171226045, "dur":3702, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750754171229750, "dur":515, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750754171230266, "dur":849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750754171232737, "dur":108167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1750754171340924, "dur":6893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750754171347835, "dur":38813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750754171386674, "dur":38279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750754171424982, "dur":276853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750754171701883, "dur":153358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750754171855326, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1750754171856216, "dur":24226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1750754171880452, "dur":848995, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1750754171226063, "dur":3687, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1750754171229754, "dur":106, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1750754171229860, "dur":1195, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1750754171232643, "dur":525736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1750754171758398, "dur":74638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1750754171833051, "dur":22892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":9, "ts":1750754171855968, "dur":24472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/level0.resS" }}
+,{ "pid":12345, "tid":9, "ts":1750754171880457, "dur":849027, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1750754171226083, "dur":3672, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1750754171229755, "dur":1370, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1750754171231128, "dur":70657, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":10, "ts":1750754171231125, "dur":70662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1750754171301800, "dur":1606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1750754171303425, "dur":616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1750754171304057, "dur":11351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1750754171315423, "dur":16405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1750754171331851, "dur":8770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1750754171340637, "dur":7152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1750754171347817, "dur":19417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1750754171367247, "dur":57616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1750754171424879, "dur":276944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1750754171701889, "dur":153745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1750754171855669, "dur":24795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1750754171880472, "dur":848922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1750754171226098, "dur":3663, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1750754171229761, "dur":1293, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1750754171232636, "dur":377898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1750754171610565, "dur":189252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1750754171799850, "dur":56797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1750754171856661, "dur":872678, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1750754171226117, "dur":3648, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1750754171229765, "dur":1331, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1750754171232647, "dur":114400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1750754171347064, "dur":8628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1750754171355725, "dur":30887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1750754171386631, "dur":38209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1750754171424866, "dur":277055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1750754171701940, "dur":153864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1750754171855840, "dur":24170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1750754171880022, "dur":849322, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1750754171226348, "dur":3462, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1750754171229810, "dur":1370, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1750754171231181, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1750754171232528, "dur":133804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1750754171366353, "dur":261395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1750754171627769, "dur":171855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1750754171799642, "dur":56961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1750754171856612, "dur":872737, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1750754171226152, "dur":3616, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1750754171229769, "dur":1517, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1750754171231288, "dur":31282, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":14, "ts":1750754171231286, "dur":31285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unitytutorial/NewTutorials/buildpingpong/PingPong.exe" }}
+,{ "pid":12345, "tid":14, "ts":1750754171262586, "dur":724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong.exe" }}
+,{ "pid":12345, "tid":14, "ts":1750754171263332, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":14, "ts":1750754171265090, "dur":6208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":14, "ts":1750754171271319, "dur":14931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1750754171286265, "dur":503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1750754171286781, "dur":5275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":14, "ts":1750754171292070, "dur":6355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":14, "ts":1750754171298445, "dur":5362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1750754171303826, "dur":11196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1750754171315045, "dur":656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":14, "ts":1750754171315713, "dur":24439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":14, "ts":1750754171340168, "dur":6955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1750754171347140, "dur":8597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1750754171355758, "dur":30832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1750754171386630, "dur":38063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1750754171424716, "dur":277037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1750754171701822, "dur":131265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1750754171833101, "dur":23342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":14, "ts":1750754171856452, "dur":872867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1750754171226176, "dur":3596, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1750754171229772, "dur":1510, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1750754171231285, "dur":933144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1750754171231282, "dur":933149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1750754172164470, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1750754172166933, "dur":562496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1750754171226196, "dur":3579, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1750754171229775, "dur":1469, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1750754171231255, "dur":192771, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":16, "ts":1750754171231255, "dur":192774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":16, "ts":1750754171424305, "dur":117257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":16, "ts":1750754171541589, "dur":257839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1750754171799447, "dur":57021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1750754171856484, "dur":872871, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1750754171226219, "dur":3561, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1750754171229780, "dur":1451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1750754171231231, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":17, "ts":1750754171232936, "dur":377666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":17, "ts":1750754171610623, "dur":91397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1750754171702057, "dur":130920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1750754171832987, "dur":879792, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":17, "ts":1750754171832987, "dur":879794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unitytutorial/NewTutorials/buildpingpong/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":17, "ts":1750754172712797, "dur":16465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":18, "ts":1750754171226240, "dur":3542, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1750754171229782, "dur":1444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1750754171231227, "dur":331720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":18, "ts":1750754171562993, "dur":180832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":18, "ts":1750754171743864, "dur":89107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1750754171833001, "dur":47338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1750754171880349, "dur":848993, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1750754171226267, "dur":3518, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1750754171229785, "dur":1315, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1750754171231103, "dur":206687, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":19, "ts":1750754171231102, "dur":206690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":19, "ts":1750754171437811, "dur":263257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":19, "ts":1750754171701092, "dur":98756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1750754171799863, "dur":80254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1750754171880129, "dur":849220, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1750754171226277, "dur":3514, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1750754171229791, "dur":1290, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1750754171231085, "dur":104109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":20, "ts":1750754171231081, "dur":104114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":20, "ts":1750754171335208, "dur":4671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":20, "ts":1750754171339909, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1750754171340651, "dur":7211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1750754171347877, "dur":19699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1750754171367593, "dur":57171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1750754171424782, "dur":276946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1750754171701749, "dur":131293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1750754171833055, "dur":37310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":20, "ts":1750754171870376, "dur":859000, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1750754171226290, "dur":3504, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1750754171229794, "dur":1257, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1750754171248953, "dur":253, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":21, "ts":1750754171249309, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/app.info" }}
+,{ "pid":12345, "tid":21, "ts":1750754171257215, "dur":528797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":21, "ts":1750754171786046, "dur":70005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1750754171856080, "dur":24828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":21, "ts":1750754171880914, "dur":848559, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1750754171226304, "dur":3495, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1750754171229799, "dur":1416, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1750754171231216, "dur":407275, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":22, "ts":1750754171231215, "dur":407277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":22, "ts":1750754171638508, "dur":119837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":22, "ts":1750754171758365, "dur":75205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1750754171833585, "dur":22774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":22, "ts":1750754171856373, "dur":24087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":22, "ts":1750754171880469, "dur":848848, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1750754171226321, "dur":3481, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1750754171229802, "dur":1398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1750754171231202, "dur":442022, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":23, "ts":1750754171231200, "dur":442029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":23, "ts":1750754171673245, "dur":85077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":23, "ts":1750754171758355, "dur":75201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1750754171833570, "dur":46209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":23, "ts":1750754171879789, "dur":849556, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1750754171226335, "dur":3472, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1750754171229807, "dur":1383, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1750754171233031, "dur":394395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":24, "ts":1750754171627457, "dur":172085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1750754171799560, "dur":57036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unitytutorial/NewTutorials/buildpingpong/PingPong_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1750754171856604, "dur":872747, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750754172732135, "dur":785, "ph":"X", "name": "ProfilerWriteOutput" }
+,

@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\unitytutorial\\NewTutorials\\PingPong\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C92A4D47-D475-A331-9B33-5C0D45DA5E94}|Assembly-CSharp.csproj|D:\\unitytutorial\\NewTutorials\\PingPong\\assets\\scripts\\aipaddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92A4D47-D475-A331-9B33-5C0D45DA5E94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\aipaddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92A4D47-D475-A331-9B33-5C0D45DA5E94}|Assembly-CSharp.csproj|D:\\unitytutorial\\NewTutorials\\PingPong\\assets\\scripts\\ballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92A4D47-D475-A331-9B33-5C0D45DA5E94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92A4D47-D475-A331-9B33-5C0D45DA5E94}|Assembly-CSharp.csproj|D:\\unitytutorial\\NewTutorials\\PingPong\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92A4D47-D475-A331-9B33-5C0D45DA5E94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92A4D47-D475-A331-9B33-5C0D45DA5E94}|Assembly-CSharp.csproj|d:\\unitytutorial\\newtutorials\\pingpong\\assets\\scripts\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92A4D47-D475-A331-9B33-5C0D45DA5E94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92A4D47-D475-A331-9B33-5C0D45DA5E94}|Assembly-CSharp.csproj|D:\\unitytutorial\\NewTutorials\\PingPong\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92A4D47-D475-A331-9B33-5C0D45DA5E94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92A4D47-D475-A331-9B33-5C0D45DA5E94}|Assembly-CSharp.csproj|D:\\unitytutorial\\NewTutorials\\PingPong\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92A4D47-D475-A331-9B33-5C0D45DA5E94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92A4D47-D475-A331-9B33-5C0D45DA5E94}|Assembly-CSharp.csproj|d:\\unitytutorial\\newtutorials\\pingpong\\assets\\scripts\\countdownui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92A4D47-D475-A331-9B33-5C0D45DA5E94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\countdownui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92A4D47-D475-A331-9B33-5C0D45DA5E94}|Assembly-CSharp.csproj|D:\\unitytutorial\\NewTutorials\\PingPong\\assets\\scripts\\goaltrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92A4D47-D475-A331-9B33-5C0D45DA5E94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\goaltrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92A4D47-D475-A331-9B33-5C0D45DA5E94}|Assembly-CSharp.csproj|D:\\unitytutorial\\NewTutorials\\PingPong\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92A4D47-D475-A331-9B33-5C0D45DA5E94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PauseManager.cs",
+              "DocumentMoniker": "D:\\unitytutorial\\NewTutorials\\PingPong\\Assets\\Scripts\\PauseManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PauseManager.cs",
+              "ToolTip": "D:\\unitytutorial\\NewTutorials\\PingPong\\Assets\\Scripts\\PauseManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PauseManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T03:18:33.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CountDownUI.cs",
+              "DocumentMoniker": "D:\\unitytutorial\\NewTutorials\\PingPong\\Assets\\Scripts\\CountDownUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CountDownUI.cs",
+              "ToolTip": "D:\\unitytutorial\\NewTutorials\\PingPong\\Assets\\Scripts\\CountDownUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CountDownUI.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T03:05:49.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "D:\\unitytutorial\\NewTutorials\\PingPong\\Assets\\Scripts\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
+              "ToolTip": "D:\\unitytutorial\\NewTutorials\\PingPong\\Assets\\Scripts\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AudioManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T01:50:05.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GoalTrigger.cs",
+              "DocumentMoniker": "D:\\unitytutorial\\NewTutorials\\PingPong\\Assets\\Scripts\\GoalTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GoalTrigger.cs",
+              "ToolTip": "D:\\unitytutorial\\NewTutorials\\PingPong\\Assets\\Scripts\\GoalTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GoalTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T07:55:47.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ScoreManager.cs",
+              "DocumentMoniker": "D:\\unitytutorial\\NewTutorials\\PingPong\\Assets\\Scripts\\ScoreManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreManager.cs",
+              "ToolTip": "D:\\unitytutorial\\NewTutorials\\PingPong\\Assets\\Scripts\\ScoreManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScoreManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T07:49:13.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\unitytutorial\\NewTutorials\\PingPong\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "D:\\unitytutorial\\NewTutorials\\PingPong\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T03:21:16.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AIPaddle.cs",
+              "DocumentMoniker": "D:\\unitytutorial\\NewTutorials\\PingPong\\Assets\\Scripts\\AIPaddle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AIPaddle.cs",
+              "ToolTip": "D:\\unitytutorial\\NewTutorials\\PingPong\\Assets\\Scripts\\AIPaddle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AIPaddle.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T02:49:05.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\unitytutorial\\NewTutorials\\PingPong\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "D:\\unitytutorial\\NewTutorials\\PingPong\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T02:37:44.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BallController.cs",
+              "DocumentMoniker": "D:\\unitytutorial\\NewTutorials\\PingPong\\Assets\\Scripts\\BallController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BallController.cs",
+              "ToolTip": "D:\\unitytutorial\\NewTutorials\\PingPong\\Assets\\Scripts\\BallController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BallController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwDMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T09:10:59.652Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
