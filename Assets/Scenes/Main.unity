@@ -1350,7 +1350,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 131667906}
-  speed: 3
+  baseSmoothness: 6
+  nervousSmoothnessFactor: 0.2
+  reactionDelay: 0.1
+  predictionError: 0.1
 --- !u!114 &581465266
 MonoBehaviour:
   m_ObjectHideFlags: 0

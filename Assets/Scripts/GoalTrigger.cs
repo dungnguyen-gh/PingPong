@@ -13,7 +13,7 @@ public class GoalTrigger : MonoBehaviour
         {
             BallController ball = other.GetComponent<BallController>();
 
-            if (ball != null) 
+            if (ball != null && !ball.HasScored) 
             {
                 ball.OnScored();
             }

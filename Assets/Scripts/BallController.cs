@@ -22,7 +22,11 @@ public class BallController : MonoBehaviour
     // Make sure the ball never moves flat
     private void FixedUpdate()
     {
-        if (!gameStarted) return;
+        if (!gameStarted || currentSpeed <= 0.01f)
+        {
+            rb.velocity = Vector3.zero;
+            return;
+        }
 
         Vector3 velocity = rb.velocity;
         if (Mathf.Abs(velocity.z) < 0.1f)
@@ -47,15 +51,25 @@ public class BallController : MonoBehaviour
     }
     public void ResetBall()
     {
-        transform.position = Vector3.zero;
-        rb.velocity = Vector3.zero;
         gameStarted = false;
         hasScored = false;
+
+        ResetRb();
+
+        transform.position = Vector3.zero;
     }
     public void StopBall()
     {
-        rb.velocity = Vector3.zero;
         gameStarted = false;
+
+        ResetRb();
+    }
+    private void ResetRb()
+    {
+        currentSpeed = 0f;
+        rb.velocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
+        rb.Sleep();
     }
     private void OnCollisionEnter(Collision collision)
     {
