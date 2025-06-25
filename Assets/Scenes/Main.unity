@@ -1350,7 +1350,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 131667906}
-  baseSmoothness: 6
+  baseSmoothness: 7
   nervousSmoothnessFactor: 0.2
   reactionDelay: 0.1
   predictionError: 0.1
