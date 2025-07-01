@@ -9,13 +9,23 @@ public class BallController : MonoBehaviour
     private float currentSpeed;
     private Rigidbody rb;
     private bool gameStarted = false;
-
+    private Vector3 originalScale;
     private bool hasScored = false;
     public bool HasScored => hasScored;
+
+    private GameObject lastHitPaddle;
+    public GameObject LastHitPaddle => lastHitPaddle;
+
+    [SerializeField] PlayerIdentifier[] playerIdentifiers = null;
+    public float GetSpeed() => currentSpeed;
+    public void SetSpeed(float speed) => currentSpeed = Mathf.Max(speed, 0.1f);
+
+    [SerializeField] PowerUpSpawner spawner = null;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        originalScale = transform.localScale;
         ResetBall();
         StopBall();
     }
@@ -34,6 +44,10 @@ public class BallController : MonoBehaviour
             velocity.z = Mathf.Sign(velocity.z) * 0.5f;
         }
         rb.velocity = velocity.normalized * currentSpeed;
+
+        // rotation for the ball
+        Vector3 rotationAxis = Vector3.Cross(Vector3.up, rb.velocity.normalized);
+        rb.angularVelocity = rotationAxis * currentSpeed;
     }
     public void OnScored()
     {
@@ -75,6 +89,8 @@ public class BallController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Paddle"))
         {
+            lastHitPaddle = collision.gameObject;
+
             if (hasScored) return;
 
             ContactPoint contact = collision.GetContact(0);
@@ -110,5 +126,50 @@ public class BallController : MonoBehaviour
                 rb.velocity = vel.normalized * currentSpeed;
             }
         }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("PowerUp"))
+        {
+            if (lastHitPaddle == null) return; // Prevent applying power up if no paddle touched yet
+
+            PowerUp powerUp = other.GetComponent<PowerUp>();
+            if (powerUp != null)
+            {
+                GameObject collector = lastHitPaddle;
+                GameObject opponent = FindOpponent(collector);
+
+                if (spawner != null)
+                {
+                    powerUp.Collect(collector, opponent, spawner);
+                    AudioManager.instance.PlayCollectPowerUp();
+                }
+            }
+        }
+    }
+    private GameObject FindOpponent(GameObject collector)
+    {
+        var identifier = collector.GetComponent<PlayerIdentifier>();
+        if (identifier == null) return null;
+
+        PlayerIdentifier.PlayerType opponentType = identifier.playerType == PlayerIdentifier.PlayerType.Player1
+            ? PlayerIdentifier.PlayerType.Player2
+            : PlayerIdentifier.PlayerType.Player1;
+
+        foreach (var id in playerIdentifiers)
+        {
+            if (id.playerType == opponentType) return id.gameObject;
+        }
+
+        return null;
+    }
+    public void ResetScale()
+    {
+        transform.localScale = originalScale;
+    }
+    public void ResetEffects()
+    {
+        SetSpeed(baseSpeed);
+        ResetScale();
     }
 }

@@ -15,6 +15,7 @@ public class ScoreManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI winText;
 
     [SerializeField] private GameManager gameManager;
+    [SerializeField] private PowerUpSpawner powerUpSpawner;
     private int winScore = 5;
     
     public void Player1Scored()
@@ -31,6 +32,7 @@ public class ScoreManager : MonoBehaviour
     {
         UpdateUI();
         ball.ResetBall();
+        powerUpSpawner.ResetPowerUps();
         
         if (CheckWin(out string winner))
         {

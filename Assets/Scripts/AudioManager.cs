@@ -7,6 +7,7 @@ public class AudioManager : MonoBehaviour
     public static AudioManager instance {  get; private set; }
     [SerializeField] private AudioClip bounceClip;
     [SerializeField] private AudioClip clickClip;
+    [SerializeField] private AudioClip collectClip;
 
     [SerializeField] private AudioSource effectsSource;
 
@@ -28,5 +29,9 @@ public class AudioManager : MonoBehaviour
     public void PlayClick() 
     {
         effectsSource.PlayOneShot(clickClip);
+    }
+    public void PlayCollectPowerUp()
+    {
+        effectsSource.PlayOneShot(collectClip);
     }
 }

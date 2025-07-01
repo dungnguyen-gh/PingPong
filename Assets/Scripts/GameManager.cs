@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject mainMenu;
     [SerializeField] private Button btnAI, btnFriend;
 
+    [SerializeField] private PowerUpSpawner powerUpSpawner;
+
     private bool isAI = false;
     public bool IsAI => isAI;
 
@@ -35,9 +37,30 @@ public class GameManager : MonoBehaviour
 
         mainMenu.SetActive(false);
         player2.GetComponent<AIPaddle>().enabled = playWithAI;
-        player2.GetComponent<PlayerController>().enabled = !playWithAI;
+
+        PlayerController playerController2 = player2.GetComponent<PlayerController>();
+        
+
+        if (playerController2 != null)
+        {
+            playerController2.enabled = !playWithAI;
+        }
         ballController.ResetBall();
         //ballController.LaunchBall();
+
         CountDownUI.instance.StartCountdown();
+        
+        powerUpSpawner.StartSpawning();
     }
+}
+
+public interface IPowerUpResettable
+{
+    void ResetPowerUpEffect();
+}
+public interface IPaddleController : IPowerUpResettable
+{
+    float Speed { get; set; }
+    float MinZ { get; set; }
+    float MaxZ { get; set; }
 }
