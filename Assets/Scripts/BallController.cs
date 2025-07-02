@@ -10,6 +10,7 @@ public class BallController : MonoBehaviour
     private Rigidbody rb;
     private bool gameStarted = false;
     private Vector3 originalScale;
+    public Vector3 OriginalScale => originalScale;
     private bool hasScored = false;
     public bool HasScored => hasScored;
 
