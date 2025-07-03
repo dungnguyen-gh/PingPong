@@ -19,6 +19,8 @@ public class AIPaddle : MonoBehaviour, IPaddleController
     [SerializeField] private float smoothTimeMin = 0.04f;
     [SerializeField] private float smoothTimeMax = 0.2f;
 
+    private bool isCentering = false;
+
     private float minZ;
     private float maxZ;
 
@@ -47,7 +49,7 @@ public class AIPaddle : MonoBehaviour, IPaddleController
 
     private void FixedUpdate()
     {
-        if (ballRb.velocity.x < 0f) return; //ignore the ball when it comes to the opponent
+        if (isCentering || ballRb.velocity.x < 0f) return; //ignore the ball when it comes to the opponent
 
         float ballSpeed = ballRb.velocity.magnitude;
 
@@ -103,5 +105,26 @@ public class AIPaddle : MonoBehaviour, IPaddleController
         transform.localScale = new Vector3(originalScale.x, originalScale.y, 2.4f);
         minZ = bigMinZ;
         maxZ = bigMaxZ;
+
+        StartCoroutine(SmoothMoveToCenter());
+    }
+    private IEnumerator SmoothMoveToCenter()
+    {
+        isCentering = true; // Disable fix update movement
+
+        float targetZ = 0f;
+        float speed = baseMoveSpeed;
+
+        while (Mathf.Abs(transform.position.z - targetZ) > 0.01f)
+        {
+            float newZ = Mathf.MoveTowards(transform.position.z, targetZ, speed * Time.deltaTime);
+            transform.position = new Vector3(transform.position.x, transform.position.y, newZ);
+            yield return null; //wait...
+        }
+
+        // Snap to center position
+        transform.position = new Vector3(transform.position.x, transform.position.y, targetZ);
+
+        isCentering = false; // Re-enable fix update
     }
 }
