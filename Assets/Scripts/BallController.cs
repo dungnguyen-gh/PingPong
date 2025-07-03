@@ -70,8 +70,9 @@ public class BallController : MonoBehaviour
         hasScored = false;
 
         ResetRb();
-
         transform.position = Vector3.zero;
+
+        ResetEffects();
     }
     public void StopBall()
     {
@@ -164,13 +165,9 @@ public class BallController : MonoBehaviour
 
         return null;
     }
-    public void ResetScale()
-    {
-        transform.localScale = originalScale;
-    }
     public void ResetEffects()
     {
         SetSpeed(baseSpeed);
-        ResetScale();
+        transform.localScale = originalScale;
     }
 }

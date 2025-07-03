@@ -16,6 +16,8 @@ public class GameManager : MonoBehaviour
     private bool isAI = false;
     public bool IsAI => isAI;
 
+    public bool isPlaying = false;
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -32,6 +34,8 @@ public class GameManager : MonoBehaviour
     void StartGame(bool playWithAI)
     {
         AudioManager.instance.PlayClick();
+
+        isPlaying = true;
 
         isAI = playWithAI;
 

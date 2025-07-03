@@ -22,11 +22,13 @@ public class ScoreManager : MonoBehaviour
     {
         player1Score++;
         HandleScore();
+        PowerUpUI.instance.Show("Player 1 Scored", 3f);
     }
     public void Player2Scored() 
     { 
         player2Score++;
         HandleScore();
+        PowerUpUI.instance.Show(!gameManager.IsAI ? "Player 2 Scored" : "AI Scored", 3f);
     }
     private void HandleScore()
     {

@@ -8,11 +8,10 @@ public class BigBallPowerUp : PowerUp
     {
         var ball = FindObjectOfType<BallController>();
 
-        
         ball.transform.localScale = ball.OriginalScale * 2f;
         
         yield return new WaitForSeconds(duration);
 
-        ball.ResetScale();
+        ball.ResetEffects();
     }
 }

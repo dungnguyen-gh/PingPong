@@ -19,13 +19,13 @@ public class PowerUpSpawner : MonoBehaviour
     {
         if (spawnCoroutine == null)
         {
-            spawnCoroutine = StartCoroutine(SpawnRoutine());
+            spawnCoroutine = StartCoroutine(SpawnRoutine(initialDelay));
         }
     }
 
-    private IEnumerator SpawnRoutine()
+    private IEnumerator SpawnRoutine(float delay)
     {
-        yield return new WaitForSeconds(initialDelay);
+        yield return new WaitForSeconds(delay);
 
         while (true)
         {
@@ -36,6 +36,7 @@ public class PowerUpSpawner : MonoBehaviour
                     0.5f,
                     Random.Range(spawnAreaZ.x, spawnAreaZ.y)
                 );
+
                 var prefab = powerUpPrefabs[Random.Range(0, powerUpPrefabs.Length)];
                 Quaternion prefabRot = prefab.gameObject.transform.rotation;
                 current = Instantiate(prefab, pos, prefabRot);
@@ -46,11 +47,18 @@ public class PowerUpSpawner : MonoBehaviour
     }
     public void PowerUpCollected(GameObject go)
     {
-        if (go == current) current = null;
+        if (go == current) 
+            current = null;
     }
 
     public void ResetPowerUps()
     {
+        if (spawnCoroutine != null)
+        {
+            StopCoroutine(spawnCoroutine);
+            spawnCoroutine = null;
+        }
+
         // destroy any onÅ]table pickups
         foreach (var pu in GameObject.FindGameObjectsWithTag("PowerUp"))
         {
@@ -64,5 +72,7 @@ public class PowerUpSpawner : MonoBehaviour
         {
             r.ResetPowerUpEffect();
         }
+
+        spawnCoroutine = StartCoroutine(SpawnRoutine(5f));
     }
 }

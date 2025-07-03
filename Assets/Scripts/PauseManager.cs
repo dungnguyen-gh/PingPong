@@ -8,6 +8,7 @@ public class PauseManager : MonoBehaviour
 {
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private Button btnResume, btnRestart;
+    [SerializeField] private GameManager gameManager;
     private void Start()
     {
         pauseMenu.SetActive(false);
@@ -16,7 +17,7 @@ public class PauseManager : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && gameManager.isPlaying)
         {
             if (pauseMenu.activeSelf) ResumeGame();
             else PauseGame();

@@ -9,7 +9,7 @@ public class BallSpeedBoostPowerUp : PowerUp
         var ball = FindObjectOfType<BallController>();
         float original = ball.GetSpeed();
 
-        ball.SetSpeed(original * 1.5f);
+        ball.SetSpeed(original * 2f);
         yield return new WaitForSeconds(duration);
         ball.SetSpeed(original);
     }

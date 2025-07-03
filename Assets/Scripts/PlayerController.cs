@@ -38,5 +38,6 @@ public class PlayerController : MonoBehaviour, IPaddleController
         transform.localScale = originalScale;
         minZ = originalMinZ;
         maxZ = originalMaxZ;
+        moveSpeed = 7f;
     }
 }
