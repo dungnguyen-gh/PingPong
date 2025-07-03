@@ -10,15 +10,17 @@ public class BigPaddlePowerUp : PowerUp
         if (paddle != null)
         {
             MonoBehaviour paddleScript = (MonoBehaviour)paddle;
-            Vector3 originalScale = paddleScript.transform.localScale;
 
-            paddleScript.transform.localScale = new Vector3(originalScale.x, originalScale.y, 2.4f);
+            // Apply effect based on controller type
+            if (paddle is AIPaddle ai)
+            {
+                ai.ApplyBigPaddleEffect();
+            }
+            else if (paddle is PlayerController pc)
+            {
+                pc.ApplyBigPaddleEffect();
+            }
 
-            // Adjust movement bounds while big
-            paddle.MinZ = -0.8f;
-            paddle.MaxZ = 0.8f;
-
-            // Keep original clamp and let the controller handle clamping based on current scale
             yield return new WaitForSeconds(duration);
 
             paddle.ResetPowerUpEffect();

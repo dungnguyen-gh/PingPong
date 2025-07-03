@@ -52,7 +52,8 @@ public abstract class PowerUp : MonoBehaviour
     private IEnumerator EffectCoroutine(GameObject collector, GameObject opponent)
     {
         yield return ApplyEffect(collector, opponent);
-        Destroy(this.gameObject);
+        //Destroy(this.gameObject);
+        gameObject.SetActive(false);
     }
     protected abstract IEnumerator ApplyEffect(GameObject collector, GameObject opponent);
 }

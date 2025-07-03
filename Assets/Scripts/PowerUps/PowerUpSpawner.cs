@@ -14,7 +14,18 @@ public class PowerUpSpawner : MonoBehaviour
     private GameObject current = null;
     private Coroutine spawnCoroutine = null;
 
+    private List<GameObject> pool = new List<GameObject>();
+    private GameObject lastSpawned = null;
 
+    private void Start()
+    {
+        foreach (var prefab in powerUpPrefabs)
+        {
+            GameObject item = Instantiate(prefab, Vector3.one * 1000f, prefab.transform.rotation);
+            item.SetActive(false);
+            pool.Add(item);
+        }
+    }
     public void StartSpawning()
     {
         if (spawnCoroutine == null)
@@ -31,24 +42,50 @@ public class PowerUpSpawner : MonoBehaviour
         {
             if (current == null)
             {
-                Vector3 pos = new Vector3(
-                    Random.Range(spawnAreaX.x, spawnAreaX.y),
-                    0.5f,
-                    Random.Range(spawnAreaZ.x, spawnAreaZ.y)
-                );
+                GameObject chosenItem = GetAvailablePowerUp();
 
-                var prefab = powerUpPrefabs[Random.Range(0, powerUpPrefabs.Length)];
-                Quaternion prefabRot = prefab.gameObject.transform.rotation;
-                current = Instantiate(prefab, pos, prefabRot);
+                if (chosenItem != null)
+                {
+                    Vector3 pos = new Vector3(
+                        Random.Range(spawnAreaX.x, spawnAreaX.y),
+                        0.5f,
+                        Random.Range(spawnAreaZ.x, spawnAreaZ.y)
+                    );
+
+                    chosenItem.transform.position = pos;
+                    chosenItem.SetActive(true);
+                    current = chosenItem;
+                    lastSpawned = chosenItem;
+                }
+                
             }
             yield return new WaitForSeconds(spawnCooldown);
 
         }
     }
+
+    private GameObject GetAvailablePowerUp()
+    {
+        var available = pool.Where(item => !item.activeInHierarchy).ToList();
+
+        if (available.Count == 0) return null;
+
+        if (available.Count > 1 && lastSpawned != null)
+        {
+            available.Remove(lastSpawned);
+        }
+
+        return available[Random.Range(0, available.Count)];
+    }
+
     public void PowerUpCollected(GameObject go)
     {
-        if (go == current) 
+        if (go == current)
+        {
             current = null;
+            
+            go.transform.position = Vector3.one * 1000f;
+        }
     }
 
     public void ResetPowerUps()
@@ -59,10 +96,10 @@ public class PowerUpSpawner : MonoBehaviour
             spawnCoroutine = null;
         }
 
-        // destroy any onÅ]table pickups
-        foreach (var pu in GameObject.FindGameObjectsWithTag("PowerUp"))
-        {
-            Destroy(pu);
+        foreach (var item in pool) 
+        { 
+            item.SetActive(false);
+            item.transform.position = Vector3.one * 1000f;
         }
             
         current = null;

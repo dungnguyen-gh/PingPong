@@ -33,6 +33,14 @@ public class PlayerController : MonoBehaviour, IPaddleController
 
         transform.position = new Vector3(transform.position.x, transform.position.y, clampedZ);
     }
+
+    public void ApplyBigPaddleEffect()
+    {
+        transform.localScale = new Vector3(originalScale.x, originalScale.y, 2.4f);
+        minZ = -0.8f;
+        maxZ = 0.8f;
+    }
+
     public void ResetPowerUpEffect()
     {
         transform.localScale = originalScale;
