@@ -20,6 +20,7 @@ public class PauseManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && gameManager.isPlaying)
         {
             if (pauseMenu.activeSelf) ResumeGame();
+
             else PauseGame();
         }
     }
