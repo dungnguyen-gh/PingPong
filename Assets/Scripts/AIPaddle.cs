@@ -19,7 +19,7 @@ public class AIPaddle : MonoBehaviour, IPaddleController
     [SerializeField] private float smoothTimeMin = 0.04f;
     [SerializeField] private float smoothTimeMax = 0.2f;
 
-    private bool isCentering = false;
+    
 
     private float minZ;
     private float maxZ;
@@ -27,6 +27,8 @@ public class AIPaddle : MonoBehaviour, IPaddleController
     private float nextUpdateTime = 0f;
     private float targetZ = 0f;
     private float zVelocity = 0f;
+
+    private bool isCentering = false;
 
     private Vector3 originalScale;
     private float normalMinZ = -1.4f;

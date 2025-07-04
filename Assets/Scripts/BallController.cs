@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class BallController : MonoBehaviour
 {
-    public float baseSpeed = 5f;
-    private float speedIncreasePerHit = 0.2f;
+    public float baseSpeed = 4f;
+    private float speedIncreasePerHit = 0.1f;
     private float currentSpeed;
     private Rigidbody rb;
     private bool gameStarted = false;

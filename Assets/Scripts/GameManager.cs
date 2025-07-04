@@ -40,15 +40,16 @@ public class GameManager : MonoBehaviour
         isAI = playWithAI;
 
         mainMenu.SetActive(false);
-        player2.GetComponent<AIPaddle>().enabled = playWithAI;
-
-        PlayerController playerController2 = player2.GetComponent<PlayerController>();
         
-
-        if (playerController2 != null)
+        if (playWithAI)
         {
-            playerController2.enabled = !playWithAI;
+            Destroy(player2.GetComponent<PlayerController>());
         }
+        else
+        {
+            Destroy(player2.GetComponent<AIPaddle>());
+        }
+
         ballController.ResetBall();
         //ballController.LaunchBall();
 

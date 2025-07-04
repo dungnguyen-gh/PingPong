@@ -15,10 +15,12 @@ public class BigPaddlePowerUp : PowerUp
             if (paddle is AIPaddle ai)
             {
                 ai.ApplyBigPaddleEffect();
+                print("ai hit");
             }
             else if (paddle is PlayerController pc)
             {
                 pc.ApplyBigPaddleEffect();
+                print("pc hit");
             }
 
             yield return new WaitForSeconds(duration);
